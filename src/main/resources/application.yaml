@@ -1,0 +1,9 @@
+server:
+  port: 8080
+  # web:
+  #   error:
+  #     whitelabel:
+  #       enabled: false
+spring:
+  application:
+    name: webapp
