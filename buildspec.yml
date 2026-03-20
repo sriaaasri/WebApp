@@ -25,5 +25,7 @@ phases:
       - mvn package
 artifacts:
   files:
-    - target/*.war
+    - target/webapp.war
+    - scripts/**/*
+    - appspec.yml
   discard-paths: no
