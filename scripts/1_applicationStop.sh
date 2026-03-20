@@ -2,7 +2,7 @@
 
 echo "Stopping application"
 
-sd /opt/dev/apache-tomcat-11.0.18/bin/catalina.sh stop
+sh /opt/dev/apache-tomcat-11.0.18/bin/catalina.sh stop
 
 sleep 1
 
