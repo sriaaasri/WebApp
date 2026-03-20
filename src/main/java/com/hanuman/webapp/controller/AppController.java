@@ -22,6 +22,11 @@ public class AppController {
 
     }
 
+    @GetMapping("/success")
+    public String succeeMessage(){
+        return "[ SUCCESS ✨✨]: If you are seeing this message then your CICD pipeline is working!!";
+    }
+
     
 
 
