@@ -10,6 +10,6 @@ if [[ ! -n $(pgrep java) ]]; then
 	echo "Application stopped successfully"
 fi
 
-exit 1
+
 
 
