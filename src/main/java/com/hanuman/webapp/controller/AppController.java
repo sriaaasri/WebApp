@@ -18,7 +18,7 @@ public class AppController {
 
     @GetMapping("/deploy")
     public ResponseEntity<String> testController(){
-        return ResponseEntity.ok("This is webapp if your are seeing this message means application deployment is successful -- Happy coding!!");
+        return ResponseEntity.ok("[ version-2 ]This is webapp if your are seeing this message means application deployment is successful -- Happy coding!!");
 
     }
 
