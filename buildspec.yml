@@ -23,6 +23,8 @@ phases:
       - echo Build completed on `date`
       - echo Packaging artifacts...
       - mvn package
+      - echo "changing the permissions of scripts.."
+      - chmod +x scripts/*.sh 
 artifacts:
   files:
     - target/webapp.war
