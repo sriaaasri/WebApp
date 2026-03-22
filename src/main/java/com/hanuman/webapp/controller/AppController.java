@@ -18,7 +18,7 @@ public class AppController {
 
     @GetMapping("/deploy")
     public ResponseEntity<String> testController(){
-        return ResponseEntity.ok("this is message after creating codedeploy.. means your codedeploy is working fine");
+        return ResponseEntity.ok("[ SUCCESS ]: Codepipeline is working fine : jai hanuman.");
 
     }
 
